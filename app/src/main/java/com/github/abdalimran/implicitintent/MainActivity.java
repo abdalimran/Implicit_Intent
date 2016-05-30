@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-    EditText enterurl;
+    private EditText enterurl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
