@@ -20,6 +20,13 @@ public class MainActivity extends Activity {
         enterurl = (EditText) findViewById(R.id.enterurl);
     }
 
+  /*
+    Implicit Intent doesn't specifiy the component.
+    In such case, intent provides information of available components provided by the system that is to be invoked.
+
+    Here I'm using an implicit intent to show a webpage using android's default browser.
+    */
+
     public void Visit(View view) {
         String url=enterurl.getText().toString();
 
