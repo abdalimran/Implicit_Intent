@@ -34,9 +34,9 @@ public class MainActivity extends Activity {
             if (url.startsWith("http://") == false)
                 url = "http://" + url;
 
-            Intent intent=new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse(url));
-            startActivity(intent);
+            Intent implicit_intent=new Intent(Intent.ACTION_VIEW);
+            implicit_intent.setData(Uri.parse(url));
+            startActivity(implicit_intent);
         }
         else {
             Toast.makeText(getApplicationContext(), "Please enter a valid URL", Toast.LENGTH_LONG).show();
