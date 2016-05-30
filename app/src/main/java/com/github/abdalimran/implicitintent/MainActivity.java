@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
             startActivity(intent);
         }
         else {
-            Toast.makeText(getApplicationContext(), "Please enter a valid URL.", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Please enter a valid URL", Toast.LENGTH_LONG).show();
         }
     }
 }
